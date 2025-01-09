@@ -10,8 +10,8 @@ else:
 completion = client.chat.completions.create(
     model="llama-3.3-70b-versatile",
     messages=[
-        {"role" : "system", "content": "You are my educational mentor and a python-programming teacher for a middle school. So frame your answers accordingly."},
-        {"role" : "user", "content": "What are decorators?"}
+        {"role" : "system", "content": "You are a Financial assistant and you analyze the customers loan documentation, extract KPI's from it and anlyze the risk of acceptance accordingly. and finally give a score out of 10 to consider giving loan or no"},
+        {"role" : "user", "content": "Do the latest available tesla earnings statement ?"}
 
     ],
     temperature=1,
